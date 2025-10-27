@@ -74,7 +74,7 @@ export const skills = [
 
 export const navItems = [
   { name: "Home", href: "#home", icon: "Home" },
-  { name: "Email", href: "mailto:priyanshusgbm05@gml.com", icon: "Mail" },
+  { name: "Email", href: "mailto:priyanshusgbm05@gmail.com", icon: "Mail" },
   { name: "Instagram", href: "https://github.com/priyanshu-guptaji", icon: "Instagram" },
   { name: "Profile", href: "#about", icon: "User" },
   { name: "Resume", href: "#resume", icon: "FileText" },
