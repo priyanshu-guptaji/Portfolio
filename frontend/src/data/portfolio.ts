@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Ashwin",
-  tagline: "Passionate Creative Designer and Developer, dedicated to crafting innovative solutions and exceptional digital experiences through modern technologies",
+  // tagline: "Passionate Creative Designer and Developer, dedicated to crafting innovative solutions and exceptional digital experiences through modern technologies",
   intro: "Driven by curiosity and a love for design, I create simple, functional, and visually striking digital experiences. As a student, I'm always learning and exploring new ideas.",
   about: "The fusion of my passion for design, development, and seamless user experiences places me at the intersection of creativity and technology in the digital world.",
   email: "priyanshusgbm05@gml.com",
