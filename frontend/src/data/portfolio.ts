@@ -23,7 +23,7 @@ export const projects = [
     image: "project-1",
     stack: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     liveUrl: "https://learnlogicfy.com",
-    githubUrl: "https://github.com/ashwin/learnlogicfy",
+    githubUrl: "https://github.com/priyanshu-guptaji",
     gradient: "from-purple-400 via-pink-400 to-purple-300"
   },
   {
@@ -34,7 +34,7 @@ export const projects = [
     image: "project-2",
     stack: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
     liveUrl: "https://winzee.app",
-    githubUrl: "https://github.com/ashwin/winzee",
+    githubUrl: "https://github.com/priyanshu-guptaji",
     gradient: "from-blue-400 via-cyan-400 to-teal-300"
   },
   // {
@@ -75,9 +75,9 @@ export const skills = [
 export const navItems = [
   { name: "Home", href: "#home", icon: "Home" },
   { name: "Email", href: "mailto:priyanshusgbm05@gml.com", icon: "Mail" },
-  { name: "Instagram", href: "https://instagram.com/ashwin", icon: "Instagram" },
+  { name: "Instagram", href: "https://github.com/priyanshu-guptaji", icon: "Instagram" },
   { name: "Profile", href: "#about", icon: "User" },
   { name: "Resume", href: "#resume", icon: "FileText" },
-  { name: "GitHub", href: "https://github.com/ashwin", icon: "Github" },
+  { name: "GitHub", href: "https://github.com/priyanshu-guptaji", icon: "Github" },
   { name: "Info", href: "#contact", icon: "Info" }
 ];
