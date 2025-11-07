@@ -6,12 +6,14 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
+import Timeline from "@/components/Timeline"; 
+// import Photos from "@/components/Photos";
 
 const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Priyanshu Gupta- Creative Developer & Designer | Portfolio</title>
+        <title>Priyanshu Gupta - Creative Developer & Designer | Portfolio</title>
         <meta
           name="description"
           content="Passionate Creative Designer and Developer dedicated to crafting innovative solutions and exceptional digital experiences through modern technologies."
@@ -22,7 +24,7 @@ const Index = () => {
         />
         <meta
           property="og:title"
-          content="Ashwin - Creative Developer & Designer"
+          content="Priyanshu Gupta - Creative Developer & Designer"
         />
         <meta
           property="og:description"
@@ -37,7 +39,9 @@ const Index = () => {
         <Navigation />
         <main>
           <Hero />
+          <Timeline />
           <About />
+          {/* <Photos /> */}
           <Projects />
           <Contact />
         </main>

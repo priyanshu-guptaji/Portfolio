@@ -1,9 +1,8 @@
 export const personalInfo = {
-  name: "Ashwin",
-  // tagline: "Passionate Creative Designer and Developer, dedicated to crafting innovative solutions and exceptional digital experiences through modern technologies",
+  name: "Priyanshu gupta",
   intro: "Driven by curiosity and a love for design, I create simple, functional, and visually striking digital experiences. As a student, I'm always learning and exploring new ideas.",
   about: "The fusion of my passion for design, development, and seamless user experiences places me at the intersection of creativity and technology in the digital world.",
-  email: "priyanshusgbm05@gml.com",
+  email: "priyanshusgbm05@gmail.com",
   phone: "+91-6201203734",
   social: {
     github: "https://github.com/priyanshu-guptaji",
@@ -17,23 +16,23 @@ export const personalInfo = {
 export const projects = [
   {
     id: 1,
-    title: "LearnLogicfy Technologies",
-    subtitle: "Accelerate the Tech Career and build your Future Faster",
-    description: "Discover a wide range of Programming courses tailored to enhance your skills.",
+    title: "Swayamvar",
+    subtitle: "A One Stop Wedding Platform",
+    description: "Discover a wide range of Products related to wedding dress to props.",
     image: "project-1",
     stack: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    liveUrl: "https://learnlogicfy.com",
+    liveUrl: "#",
     githubUrl: "https://github.com/priyanshu-guptaji",
     gradient: "from-purple-400 via-pink-400 to-purple-300"
   },
   {
     id: 2,
-    title: "Winzee",
-    subtitle: "Modern Web Experience",
+    title: "Dev Diary",
+    subtitle: "A blog Platform",
     description: "A stunning web application with beautiful gradients and smooth animations.",
     image: "project-2",
     stack: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
-    liveUrl: "https://winzee.app",
+    liveUrl: "#",
     githubUrl: "https://github.com/priyanshu-guptaji",
     gradient: "from-blue-400 via-cyan-400 to-teal-300"
   },
