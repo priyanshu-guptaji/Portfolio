@@ -6,7 +6,8 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
-import Timeline from "@/components/Timeline"; 
+import Timeline from "@/components/Timeline";
+import SkillProof from "@/components/SkillProof";
 // import Photos from "@/components/Photos";
 
 const Index = () => {
@@ -41,6 +42,7 @@ const Index = () => {
           <Hero />
           <Timeline />
           <About />
+          <SkillProof />
           {/* <Photos /> */}
           <Projects />
           <Contact />
