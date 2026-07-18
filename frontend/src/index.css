@@ -88,6 +88,16 @@
     font-family: 'Inter', sans-serif;
     background-color: var(--neon-surface);
     color: var(--neon-on-surface);
+    @media (min-width: 768px) {
+      cursor: none !important;
+    }
+  }
+
+  /* Force cursor: none on interactive items for desktop */
+  @media (min-width: 768px) {
+    a, button, [role='button'], input, textarea, select, [data-cursor] {
+      cursor: none !important;
+    }
   }
 
   html {

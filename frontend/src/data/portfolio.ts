@@ -36,28 +36,28 @@ export const projects = [
     githubUrl: "https://github.com/priyanshu-guptaji",
     gradient: "from-blue-400 via-cyan-400 to-teal-300"
   },
-  // {
-  //   id: 3,
-  //   title: "Portfolio Dashboard",
-  //   subtitle: "Personal Project Management",
-  //   description: "A comprehensive dashboard for managing projects, tasks, and timelines.",
-  //   image: "project-3",
-  //   stack: ["Next.js", "PostgreSQL", "Prisma", "shadcn/ui"],
-  //   liveUrl: "https://portfolio-dash.com",
-  //   githubUrl: "https://github.com/ashwin/portfolio-dash",
-  //   gradient: "from-orange-400 via-red-400 to-pink-400"
-  // },
-  // {
-  //   id: 4,
-  //   title: "Design System",
-  //   subtitle: "Component Library",
-  //   description: "A comprehensive design system and component library for modern web apps.",
-  //   image: "project-4",
-  //   stack: ["React", "Storybook", "Tailwind CSS", "TypeScript"],
-  //   liveUrl: "https://design-system.dev",
-  //   githubUrl: "https://github.com/ashwin/design-system",
-  //   gradient: "from-green-400 via-emerald-400 to-teal-400"
-  // }
+  {
+    id: 3,
+    title: "Portfolio Dashboard",
+    subtitle: "Personal Project Management",
+    description: "A comprehensive dashboard for managing projects, tasks, and timelines.",
+    image: "project-3",
+    stack: ["Next.js", "PostgreSQL", "Prisma", "shadcn/ui"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/priyanshu-guptaji",
+    gradient: "from-orange-400 via-red-400 to-pink-400"
+  },
+  {
+    id: 4,
+    title: "Design System",
+    subtitle: "Component Library",
+    description: "A comprehensive design system and component library for modern web apps.",
+    image: "project-4",
+    stack: ["React", "Storybook", "Tailwind CSS", "TypeScript"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/priyanshu-guptaji",
+    gradient: "from-green-400 via-emerald-400 to-teal-400"
+  }
 ];
 
 export const skills = [

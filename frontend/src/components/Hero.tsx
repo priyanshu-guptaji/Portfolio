@@ -2,8 +2,11 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
 import heroImage from "@/assets/hero-portrait.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section
       id="home"
@@ -52,11 +55,7 @@ const Hero = () => {
               <motion.button
                 whileHover={{ scale: 1.05, rotate: 45 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() =>
-                  document
-                    .querySelector("#about")
-                    ?.scrollIntoView({ behavior: "smooth" })
-                }
+                onClick={() => navigate("/about")}
                 className="w-16 h-16 rounded-full border-2 border-primary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
                 <ArrowUpRight className="w-6 h-6" />
@@ -78,17 +77,6 @@ const Hero = () => {
                 className="w-full h-full object-cover grayscale-image"
               />
             </div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1 }}
-              className="absolute -top-4 -right-4 bg-card p-6 rounded-2xl shadow-large max-w-sm"
-            >
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {personalInfo.tagline}
-              </p>
-            </motion.div>
           </motion.div>
         </div>
       </div>
